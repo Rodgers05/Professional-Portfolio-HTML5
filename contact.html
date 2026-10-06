@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact form for Group F' professional portfolio.">
+    <title>Contact | Group F Professional Portfolio</title>
+</head>
+<body>
+
+    <!-- Header introduces the contact page. -->
+    <header>
+        <h1>CONTACT GROUP F</h1>
+        <p>Let's discuss technology, projects and opportunities</p>
+    </header>
+
+    <!-- Relative hyperlinks connect the contact page with the rest of the portfolio. -->
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="data.html">Data</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article>
+            <section>
+                <h2>Send a Message</h2>
+                <p>Complete the form below to send a professional enquiry.</p>
+
+                <!-- Labels are explicitly associated with form controls for accessibility. -->
+                <form action="#" method="post">
+                    <fieldset>
+                        <legend>Contact Information</legend>
+
+                        <p>
+                            <label for="name">Full Name:</label><br>
+                            <input type="text" id="name" name="name"
+                                   placeholder="Enter your full name"
+                                   required>
+                        </p>
+
+                        <p>
+                            <label for="email">Email Address:</label><br>
+                            <input type="email" id="email" name="email"
+                                   placeholder="name@example.com"
+                                   required>
+                        </p>
+
+                        <p>
+                            <label for="phone">Phone Number:</label><br>
+                            <input type="tel" id="phone" name="phone"
+                                   placeholder="+256 700 000000"
+                                   pattern="[+0-9 ()-]{7,}"
+                                   required>
+                        </p>
+
+                        <p>
+                            <label for="message">Message:</label><br>
+                            <textarea id="message" name="message"
+                                      rows="8" cols="50"
+                                      placeholder="Write your message here..."
+                                      required></textarea>
+                        </p>
+
+                        <p>
+                            <button type="submit">Send Message</button>
+                            <button type="reset">Clear Form</button>
+                        </p>
+                    </fieldset>
+                </form>
+            </section>
+        </article>
+
+        <aside>
+            <h2>Other Portfolio Pages</h2>
+            <ul>
+                <li><a href="about.html">Read my professional biography</a></li>
+                <li><a href="gallery.html">View my project gallery</a></li>
+                <li><a href="data.html">View my skill data</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <!-- Team section provides editable placeholders for all 11 Group F members. -->
+        <footer>
+        <p>&copy; 2026 Group F Professional Portfolio.</p>
+        <p><a href="index.html">Return to Home</a></p>
+    </footer>
+
+</body>
+</html>
